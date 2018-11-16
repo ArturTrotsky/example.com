@@ -1,0 +1,4 @@
+[Fri Nov 09 23:00:56.033023 2018] [php7:notice] [pid 19718] [client 127.0.0.1:35192] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'webuser'@'localhost' (using password: YES) in /home/artur/Dropbox/workspace/example.com/public_html/proverka.php on line 14, referer: http://example.com/
+[Fri Nov 09 23:00:56.033136 2018] [php7:notice] [pid 19718] [client 127.0.0.1:35192] PHP Stack trace:, referer: http://example.com/
+[Fri Nov 09 23:00:56.033161 2018] [php7:notice] [pid 19718] [client 127.0.0.1:35192] PHP   1. {main}() /home/artur/Dropbox/workspace/example.com/public_html/proverka.php:0, referer: http://example.com/
+[Fri Nov 09 23:00:56.033178 2018] [php7:notice] [pid 19718] [client 127.0.0.1:35192] PHP   2. mysqli_connect() /home/artur/Dropbox/workspace/example.com/public_html/proverka.php:14, referer: http://example.com/
